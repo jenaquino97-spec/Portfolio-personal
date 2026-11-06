@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jennylyn Aquino | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="nav-bar">
+    <a href="#home" class="logo">&lt;Jennylyn/&gt;</a>
+
+    <nav class="nav-links">
+      <a href="#about" data-section="about">About</a>
+      <a href="#hobbies" data-section="hobbies">Hobbies</a>
+      <a href="#education" data-section="education">Education</a>
+      <a href="#skills" data-section="skills">Skills</a>
+      <a href="#projects" data-section="projects">Projects</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn desktop-only">Contact Me</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-text reveal">
+      <h1>Hi, I’m Jennylyn Aquino</h1>
+      <p class="role">I’m a <span id="typed"></span><span class="cursor">|</span></p>
+      <p class="tagline">Turning ideas into clean, responsive websites.</p>
+      <a href="#projects" class="work-link">View my work →</a>
+    </div>
+
+    <div class="hero-photo reveal">
+     
+      <img class="hero-img" src="https://i.postimg.cc/pr7kxK3G/Messenger-creation-8CEFE12D-9739-4193-B43C-498296207DE6.jpg" alt="My photo">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title reveal">About Me</h2>
+    <p class="section-sub reveal">
+      I’m an adventurer who loves to travel, explore new places, and learn from every
+      experience along the way. I’m also interested in the IT industry and how technology
+      keeps changing the way we live and work. That curiosity inspires me to learn web
+      development and build clean, responsive websites.
+    </p>
+
+    <div class="info-grid">
+      <div class="info-card reveal">
+        <i class="fa-solid fa-user"></i>
+        <h3>Who I Am</h3>
+        <p>A student who is passionate about web development and always learning new things.</p>
+      </div>
+      <div class="info-card reveal">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h3>Education</h3>
+        <p>Currently studying Your Degree Program at Your School Name.</p>
+      </div>
+      <div class="info-card reveal">
+        <i class="fa-solid fa-bullseye"></i>
+        <h3>Career Goals</h3>
+        <p>To become a professional frontend developer who builds fast, accessible websites.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hobbies" id="hobbies">
+    <h2 class="section-title reveal">Hobbies &amp; Interests</h2>
+    <p class="section-sub reveal">
+      Outside of studying, these are the things I enjoy the most.
+    </p>
+
+    <div class="hobby-grid">
+      <div class="hobby reveal">
+       
+        <img src="https://i.postimg.cc/pr7kxK3G/Messenger-creation-8CEFE12D-9739-4193-B43C-498296207DE6.jpg" alt="Traveling photo">
+        <div class="hobby-body">
+          <h3>Traveling</h3>
+          <p>I love visiting new places and experiencing different cultures.</p>
+        </div>
+      </div>
+      <div class="hobby reveal">
+       
+        <img src="https://i.postimg.cc/W19mPGr0/Messenger-creation-18B27FB7-F67B-44C4-8A31-F9E44732DE2A.jpg" alt="Adventure photo">
+        <div class="hobby-body">
+          <h3>Adventure</h3>
+          <p>I enjoy exploring the outdoors and trying new things.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <h2 class="section-title reveal">Education</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <span class="year">2014-Present</span>
+        <h4>BSIT</h4>
+        <p>ICCT</p>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="year">2010-2014</span>
+        <h4>High School</h4>
+        <p>Batasan Hills National Highschool</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="section-title reveal">My Skills</h2>
+    <p class="section-sub reveal">
+      These are the technologies I have learned and used in my school projects.
+    </p>
+
+    <div class="skills-grid">
+      <div class="skill reveal">
+        <i class="fa-brands fa-html5" style="color:#f97316"></i>
+        <h3>HTML5</h3>
+        <p>Page structure and semantic markup</p>
+      </div>
+      <div class="skill reveal">
+        <i class="fa-brands fa-css3-alt" style="color:#3b82f6"></i>
+        <h3>CSS3</h3>
+        <p>Styling, flexbox, grid and responsive layouts</p>
+      </div>
+      <div class="skill reveal">
+        <i class="fa-brands fa-js" style="color:#eab308"></i>
+        <h3>JavaScript</h3>
+        <p>Interactive features and DOM manipulation</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title reveal">My Projects</h2>
+    <p class="section-sub reveal">
+      Here are some of my projects and school activities.
+    </p>
+
+    <div class="project-grid">
+      <article class="project reveal">
+      
+        <img src="https://i.postimg.cc/7YwSGsn1/Messenger-creation-E819D61A-F7C5-4464-90FD-C5B3E65BDBB6.jpg" alt="Screenshot of Personal Portfolio Website">
+        <div class="project-body">
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive portfolio website that shows my skills, education and projects.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+          <div class="links">
+            <a href="#" class="btn-small">Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+      
+        <img src="https://i.postimg.cc/HLcMDfTk/Messenger-creation-D0810028-430A-4806-B42A-0CA69470E1D5.jpg" alt="Screenshot of Landing Page Project">
+        <div class="project-body">
+          <h3>Landing Page Project</h3>
+          <p>A responsive landing page with a hero section, features and a contact area, made to practice layout and styling.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+          <div class="links">
+            <a href="#" class="btn-small">Live Demo</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title reveal">Contacts</h2>
+    <p class="section-sub reveal">
+      Want to work together or just say hi? You can reach me here.
+    </p>
+
+    <div class="contact-grid">
+      <a href="mailto:jenaquino97@gmail.com" class="contact-card reveal">
+        <i class="fa-solid fa-envelope"></i>
+        <h3>Email</h3>
+        <p>jenaquino97@gmail.com</p>
+      </a>
+      <a href="tel:09683623039" class="contact-card reveal">
+        <i class="fa-solid fa-phone"></i>
+        <h3>Contact Number</h3>
+        <p>09683623039</p>
+      </a>
+      <a href="https://github.com/jenaquino97-spec" target="_blank" rel="noopener noreferrer" class="contact-card reveal">
+        <i class="fa-brands fa-github"></i>
+        <h3>GitHub</h3>
+        <p>github.com/jenaquino97-spec</p>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h2>Jennylyn Aquino</h2>
+      <p>Adventurer and web developer who loves building clean, responsive and modern websites.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Connect</h3>
+      <div class="footer-icons">
+        <a href="https://github.com/jenaquino97-spec" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:jenaquino97@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:09683623039" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span id="year"></span> Jennylyn Aquino. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
